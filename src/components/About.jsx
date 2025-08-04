@@ -21,16 +21,7 @@ const About = () => {
         </svg>
       )
     },
-    {
-      id: 2,
-      title: 'Next.js',
-      category: 'frontend',
-      icon: (
-        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2L2 19h20L12 2zm0 4.5L18.5 17H5.5L12 6.5z"/>
-        </svg>
-      )
-    },
+   
     {
       id: 3,
       title: 'HTML',
@@ -133,7 +124,7 @@ const About = () => {
     },
     {
       id: 11,
-      title: 'C++',
+      title: 'Python',
       category: 'programming',
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -161,6 +152,7 @@ const About = () => {
         </svg>
       )
     },
+   
     {
       id: 14,
       title: 'Machine Learning',
@@ -174,6 +166,36 @@ const About = () => {
     {
       id: 15,
       title: 'NLP',
+      category: 'ai',
+      icon: (
+        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2L2 19h20L12 2zm0 4.5L18.5 17H5.5L12 6.5z"/>
+        </svg>
+      )
+    },
+    {
+      id: 16,
+      title: 'Deep Learning',
+      category: 'ai',
+      icon: (
+        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2L2 19h20L12 2zm0 4.5L18.5 17H5.5L12 6.5z"/>
+        </svg>
+      )
+    },
+    {
+      id: 17,
+      title: 'Streamlit',
+      category: 'ai',
+      icon: (
+        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2L2 19h20L12 2zm0 4.5L18.5 17H5.5L12 6.5z"/>
+        </svg>
+      )
+    },
+    {
+      id: 18,
+      title: 'Fast API',
       category: 'ai',
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">

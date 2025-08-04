@@ -55,6 +55,30 @@ const Projects = () => {
     ],
     ml: [
       {
+        title: "Diabetes Prediction",
+        description: "This project is a part of my machine learning learning phase where I built a predictive model to classify whether a person is likely to have diabetes based on medical diagnostic data. The model is trained on the Pima Indians Diabetes Dataset using the Support Vector Machine (SVM) classifier.",
+        image: "https://github.com/Hameedalahr/Diabetes-Prediction/blob/main/Screenshot%202025-08-04%20212412.png?raw=true",
+        technologies: ["Streamlit", "Python", "Machine Learning", "SVM"],
+        liveLink: "https://hameedalahr-loan-approval-predictio-loanpredictionwebapp-z1ypwl.streamlit.app/",
+        githubLink: "https://github.com/Hameedalahr/Diabetes-Prediction"
+      },
+      {
+        title: "California House Price Prediction",
+        description: "This project predicts the median house prices in California using machine learning. It uses features like median income, house age, average rooms, and geographical data to estimate the house value. The model is trained using the California housing dataset and deployed as an interactive web app using Streamlit.",
+        image: "https://github.com/Hameedalahr/California-House-Price-Prediction/blob/main/Screenshot%202025-08-04%20212330.png?raw=true",
+        technologies: ["Streamlit", "Python", "Machine Learning", "XGBoost Regressor"],
+        liveLink: "https://hameedalahr-loan-approval-predictio-loanpredictionwebapp-z1ypwl.streamlit.app/",
+        githubLink: "https://github.com/Hameedalahr/California-House-Price-Prediction"
+      },
+      {
+        title: "Loan Approval Prediction",
+        description: "This project is a machine learning-based solution that predicts whether a loan application should be approved or not, based on applicant data. Built using Support Vector Machine (SVM) classification",
+        image: "https://github.com/Hameedalahr/Loan-Approval-Prediction/blob/main/Screenshot%202025-08-04%20211712.png?raw=true",
+        technologies: ["Streamlit", "Python", "Machine Learning", "SVM"],
+        liveLink: "https://hameedalahr-loan-approval-predictio-loanpredictionwebapp-z1ypwl.streamlit.app/",
+        githubLink: "https://github.com/Hameedalahr/Loan-Approval-Prediction"
+      },
+      {
         title: "Text AutoCorrect & AutoComplete",
         description: "This project is a text auto-correct and auto-complete system that uses GPT-2 and T5 Transformer to predict the correct spelling of a word. The project is built using Python and Flask.",
         image: "https://github.com/Hameedalahr/Text_AutoCorrect-Complete/blob/main/Text%20predictor.jpeg?raw=true",

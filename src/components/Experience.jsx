@@ -3,6 +3,15 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Data Science Intern",
+      company: "LPDG India",
+      period: "August 2025 - Present",
+      description: [
+       "Currently interning in the Data Science and Big Data divisions of LPDG India.",
+      "Gaining hands-on experience with tools and technologies in the Big Data and Machine Learning ecosystem."
+      ]
+    },
+    {
       title: "Video Editing Freelancer",
       company: "Genie Finance & Co",
       period: "June 2024 - Present",
@@ -13,16 +22,7 @@ const Experience = () => {
         
       ]
     },
-    {
-      title: "Graphic Designer",
-      company: "Village Vihari Youtube",
-      period: "Feb 2021 - Nov 2021",
-      description: [
-        "Designed eye-catching and audience-targeted thumbnails that improved video click-through rates",
-        "Maintained visual consistency across videos to enhance the channel’s brand identity.",
-        "Collaborated closely with content creators to align thumbnail visuals with video topics and trends."
-      ]
-    },
+    
     
   ];
 

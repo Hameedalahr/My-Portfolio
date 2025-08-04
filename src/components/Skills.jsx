@@ -28,6 +28,10 @@ const Skills = () => {
       title: "AI & Design",
       skills: [
         "Machine Learning",
+        "Deep Learning",
+        "Data Science",
+        "Streamlit",
+        "Fast API",
         "NLP",
         "UI/UX with Figma"
       ]
@@ -61,7 +65,7 @@ const Skills = () => {
                   >
                     {skill}
                   </span>
-                ))}
+                ))} 
               </div>
             </div>
           ))}
